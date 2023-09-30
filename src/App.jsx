@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import HappinessCard from "./components/HappinessCard"
+import MenuBanner from "./components/MenuBanner"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Navbar />
     <Banner />
     <HappinessCard />
+    <MenuBanner />
    </div>
   )
 }
