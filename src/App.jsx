@@ -1,20 +1,15 @@
-import Navbar from "./components/Navbar"
-import Banner from "./components/Banner"
-import HappinessCard from "./components/HappinessCard"
-import MenuBanner from "./components/MenuBanner"
-import Footer from "./components/Footer"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 
 function App() {
 
   return (
-   <div>
-    <Navbar />
-    <Banner />
-    <HappinessCard />
-    <MenuBanner />
-    <Footer />
-   </div>
+   <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+   </Router>
   )
 }
 
