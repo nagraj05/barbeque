@@ -6,7 +6,7 @@ export default function HappinessCard() {
       <h1 className="mx-20 mb-5 pt-5 text-2xl font-poppins text-white">
         Hapiness Card For You
       </h1>
-      <div className="flex gap-8 mx-20">
+      <div className="flex gap-8  justify-center">
         <div className="relative ">
           <img
             src={card}
